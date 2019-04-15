@@ -11,6 +11,9 @@ Goal is to interpolate between two noises, one giving a artificially generated c
 The interesting part is the kinda vector algebra you could use to create mixtures of Objects like:
 Chair/2 + Table/2 = mix of both
 
+![Example Interpolation](example.png "Example Interpolation")
+
+
 ## How
 Requirements:
 

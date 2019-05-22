@@ -2,13 +2,12 @@
 
 ## What
 
-This jupyter notebook provides 
-a super simple and intuitiv GAN implementation using Keras on Tensorflow.
+This jupyter notebook provides a sample interpolation using the GAN from https://github.com/rp2707/coms4995-project
 
-It trains on the Shapenet dataset particularly two models, a chair and a airplane (17600 3D volumetric objects).
+It trains on the Shapenet dataset particularly two models, a chair and a airplane (~17600 3D volumetric objects).
 Goal is to interpolate between two noises, one giving a artificially generated chair and another one giving a airplane.
 
-The interesting part is the kinda vector algebra you could use to create mixtures of Objects like:
+The interesting part is the vector algebra you could use to create mixtures of Objects like:
 Chair/2 + Airplane/2 = mix of both
 
 
